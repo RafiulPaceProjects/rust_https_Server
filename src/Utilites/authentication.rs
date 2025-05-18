@@ -8,16 +8,23 @@ struct users_permit_check_json {
     user_name_json: String,
     pass_json: String,
 }
-//turns mode to return to main to complete authentication
-fn turn_mode_to_return_to_main(mode: (bool, bool, bool)) -> (bool, bool) {
-    println!("{:?}", mode);
-    (true, true)
+//turns mode to return to main to complete authentication // mode servermode, usermode, permit
+fn turn_mode_to_return_to_main(server_mode: bool, user_mode: bool, permit: bool) -> (bool, bool) {
+    if (server_mode || user_mode) && permit {
+        if server_mode {
+            let returing_admin_mode = (true, permit);
+            return returing_admin_mode;
+        } else {
+            let returning_user_mode = (false, permit);
+            return returning_user_mode;
+        }
+    }
+    (false, false)
 }
 
 /// checks for permit
 
 fn check_if_permitted(name: &str, pass: &str) -> bool {
-    println!("CALLEED"); //debug
     let path: &str = "user.json"; // set file location
     let file_path = path;
     let contents = fs::read_to_string(file_path); // take in the contents
@@ -70,12 +77,15 @@ pub fn authentication_main(
 
     if server_mode || user_mode {
         permit = check_if_permitted(username, pass_word);
+        if !permit {
+            println!("NOSS");
+        }
     } else {
         permit = false;
+        println!("Sorry wrong mode");
     }
 
-    let mode = (server_mode, user_mode, permit);
-    let return_to_main: (bool, bool) = turn_mode_to_return_to_main(mode);
+    let return_to_main: (bool, bool) = turn_mode_to_return_to_main(server_mode, user_mode, permit);
 
     //permit selection
     return_to_main

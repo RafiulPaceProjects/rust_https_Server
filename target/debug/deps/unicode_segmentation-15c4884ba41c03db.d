@@ -1,0 +1,9 @@
+C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\target\debug\deps\libunicode_segmentation-15c4884ba41c03db.rmeta: C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\lib.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\grapheme.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\sentence.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\word.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\tables.rs
+
+C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\target\debug\deps\unicode_segmentation-15c4884ba41c03db.d: C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\lib.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\grapheme.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\sentence.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\word.rs C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\tables.rs
+
+C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\lib.rs:
+C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\grapheme.rs:
+C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\sentence.rs:
+C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\word.rs:
+C:\Users\rafiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.12.0\src\tables.rs:

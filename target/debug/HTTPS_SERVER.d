@@ -1,0 +1,1 @@
+C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\target\debug\HTTPS_SERVER.exe: C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\src\Utilites\authentication.rs C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\src\Utilites\mod.rs C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\src\args.rs C:\Code\C_CODE_ALWAYS\HTTPS_SERVER\src\main.rs
